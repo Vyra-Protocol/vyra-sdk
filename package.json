@@ -1,0 +1,17 @@
+{
+  "name": "@vyra/sdk",
+  "version": "0.1.0",
+  "description": "Vyra SDK — x402-based instant access on Solana",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
